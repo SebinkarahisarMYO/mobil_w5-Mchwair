@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
       home: const MyHomePage(),
     );
   }
-}
+} 
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -40,6 +40,29 @@ class _MyHomePageState extends State<MyHomePage> {
           //--------------
           //--------------
           //--------------Kodları aşağıya yazınız.
+          //
+         
+         
+
+Container(
+        width: 250,
+        height: 300,
+        color: Colors.yellow,
+        alignment: Alignment.topRight,
+        child: Container(
+          width: 150,
+          height: 200,
+          color: Colors.black,
+          child: Text(
+            "Flutter",
+            style: TextStyle(color: Colors.white),
+          ),
+          alignment: Alignment.bottomRight,
+        ),
+      )
+
+
+
           //--------------
           //--------------
           //--------------    
